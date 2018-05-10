@@ -22,6 +22,6 @@ services:
       - "5432:5432"
     environment:
       - "POSTGRES_USER=postgres"
-      - "POSTGRES_PASSWORD=mysecretpassword1234"
+      - "POSTGRES_PASSWORD="
   redis:
     image: redis
