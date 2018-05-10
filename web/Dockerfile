@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
     postgresql-client \
     nodejs \
     vim \
-    emacs24-nox
+    emacs25-nox
 RUN gem install rails
 RUN mkdir /app
 WORKDIR /app
