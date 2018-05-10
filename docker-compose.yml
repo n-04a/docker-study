@@ -9,7 +9,7 @@ services:
       - "DATABASE_HOST=db"
       - "DATABASE_PORT=5432"
       - "DATABASE_USER=postgres"
-      - "DATABASE_PASSWORD=posgurepass"
+      - "DATABASE_PASSWORD=hogehoge"
     links:
       - db
     volumes:
